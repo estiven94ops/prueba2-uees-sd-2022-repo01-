@@ -1,6 +1,6 @@
 import java.io.OutputStream; import java.net.InetAddress; import java.net.Socket; import java.util.Scanner; import java.io.DataOutputStream;
 
-public class TCPClient {
+public class TCPClientStructuredData {
 
     public static final void main(final String[] args){
         Socket client;
