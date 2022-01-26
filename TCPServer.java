@@ -9,7 +9,7 @@ public class TCPServer {
     int n;
 
     try {
-        server = new ServerSocket(5000);
+        server = new ServerSocket(9999);
         System.out.println("servidor iniciado");
 
         for (int j = 5; (--j) >= 0;){
